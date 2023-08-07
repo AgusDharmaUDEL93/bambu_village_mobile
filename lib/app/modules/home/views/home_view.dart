@@ -6,6 +6,7 @@ import 'package:flutter_slider_drawer/flutter_slider_drawer.dart';
 
 import 'package:get/get.dart';
 import 'package:latlong2/latlong.dart';
+import 'package:simple_accordion/simple_accordion.dart';
 
 import '../../../widgets/dialog/popup_dialog.dart';
 import '../../../widgets/markers/location_marker.dart';
@@ -49,15 +50,91 @@ class HomeView extends GetView<HomeController> {
                   child: Image.network(
                       "http://onemap.bambuvillage.org/img/logo-white.a2d402e2.png"),
                 ),
-                Expanded(
-                  child: ListView(
-                    padding: EdgeInsets.symmetric(
-                      vertical: 30,
-                      horizontal: 20,
-                    ),
-                    children: [],
-                  ),
-                )
+                Obx(
+                  () => !controller.isLoading2.value
+                      ? Expanded(
+                          child: ListView(
+                            padding: EdgeInsets.symmetric(
+                              vertical: 30,
+                              horizontal: 20,
+                            ),
+                            children: controller.regions.map(
+                              (e) {
+                                return SimpleAccordion(
+                                  headerTextStyle: TextStyle(
+                                    color: Colors.white,
+                                  ),
+                                  itemTextStyle: TextStyle(
+                                    color: Colors.white,
+                                  ),
+                                  children: [
+                                    AccordionHeaderItem(
+                                      title: e.region,
+                                      headerTextStyle: TextStyle(
+                                        color: Colors.white,
+                                      ),
+                                      itemTextStyle: TextStyle(
+                                        color: Colors.white,
+                                      ),
+                                      children: [
+                                        AccordionItem(
+                                          itemTextStyle: TextStyle(
+                                            color: Colors.white,
+                                          ),
+                                          child: SimpleAccordion(
+                                            headerTextStyle: TextStyle(
+                                              color: Colors.white,
+                                            ),
+                                            itemTextStyle: TextStyle(
+                                              color: Colors.white,
+                                            ),
+                                            children: e.regency.map(
+                                              (f) {
+                                                return AccordionHeaderItem(
+                                                  title: f.name,
+                                                  itemTextStyle: TextStyle(
+                                                    color: Colors.white,
+                                                  ),
+                                                  children: f.location.map(
+                                                    (g) {
+                                                      return AccordionItem(
+                                                        itemTextStyle:
+                                                            TextStyle(
+                                                          color: Colors.white,
+                                                        ),
+                                                        title: g.name,
+                                                        onTap: () {
+                                                          controller
+                                                              .mapController
+                                                              .move(
+                                                                  LatLng(
+                                                                    double.parse(
+                                                                        g.latitude),
+                                                                    double.parse(
+                                                                        g.longitude),
+                                                                  ),
+                                                                  13);
+                                                        },
+                                                      );
+                                                    },
+                                                  ).toList(),
+                                                );
+                                              },
+                                            ).toList(),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ],
+                                );
+                              },
+                            ).toList(),
+                          ),
+                        )
+                      : const Center(
+                          child: CircularProgressIndicator(),
+                        ),
+                ),
               ],
             ),
           ),
@@ -65,7 +142,7 @@ class HomeView extends GetView<HomeController> {
             height: Get.height,
             width: Get.width,
             child: Obx(
-              () => !controller.isLoading.value
+              () => !controller.isLoading1.value
                   ? FlutterMap(
                       mapController: controller.mapController,
                       options: MapOptions(
@@ -90,15 +167,16 @@ class HomeView extends GetView<HomeController> {
                               },
                             ).toList(),
                             popupDisplayOptions: PopupDisplayOptions(
-                                builder: (BuildContext context, Marker marker) {
-                              if (marker is LocationMarker) {
-                                return PopUpDiaglog(
-                                  locationElement: marker.locationElement,
-                                );
-                              } else {
-                                return Container();
-                              }
-                            }),
+                              builder: (BuildContext context, Marker marker) {
+                                if (marker is LocationMarker) {
+                                  return PopUpDiaglog(
+                                    locationElement: marker.locationElement,
+                                  );
+                                } else {
+                                  return Container();
+                                }
+                              },
+                            ),
                           ),
                         ),
                       ],

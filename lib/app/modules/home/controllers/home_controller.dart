@@ -1,4 +1,6 @@
 import 'package:bambu_village_mobile/app/models/location.dart';
+import 'package:bambu_village_mobile/app/models/regions.dart';
+import 'package:bambu_village_mobile/app/modules/home/providers/drawer_providers.dart';
 import 'package:bambu_village_mobile/app/modules/home/providers/home_providers.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_map_marker_popup/flutter_map_marker_popup.dart';
@@ -8,8 +10,10 @@ import 'package:latlong2/latlong.dart';
 class HomeController extends GetxController {
   //TODO: Implement HomeController
   List<LocationElement> lokasi = [];
+  List<Regions> regions = [];
 
-  RxBool isLoading = true.obs;
+  RxBool isLoading1 = true.obs;
+  RxBool isLoading2 = true.obs;
 
   final PopupController popupController = PopupController();
   final MapController mapController = MapController();
@@ -17,14 +21,20 @@ class HomeController extends GetxController {
   final count = 0.obs;
   @override
   void onInit() {
-    getData();
+    getDataMarker();
+    getDataDrawer();
     super.onInit();
   }
 
-  void getData() async {
+  void getDataMarker() async {
     var json = await locationProviders();
     lokasi = json.location;
-    isLoading.value = false;
+    isLoading1.value = false;
+  }
+
+  void getDataDrawer() async {
+    regions = await drawerProviders();
+    isLoading2.value = false;
   }
 
   @override

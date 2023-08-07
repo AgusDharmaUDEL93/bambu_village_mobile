@@ -6,7 +6,6 @@ import 'package:flutter/services.dart';
 Future<Location> locationProviders() async {
   final String response =
       await rootBundle.loadString("assets/data/json/marker.json");
-  final jsonData = await json.decode(response);
-  final data = Location.fromJson(jsonData);
+  final data = locationFromJson(response);
   return data;
 }
