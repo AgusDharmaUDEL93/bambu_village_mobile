@@ -1,301 +1,301 @@
 {
-  "tempat_pariwisata": [
+  "location": [
     {
-      "nama": "Pura Tanah Lot",
+      "name": "Pura Tanah Lot",
       "latitude": "-8.6212",
       "longitude": "115.0865",
       "description": "Pura di atas batu karang, populer untuk menyaksikan matahari terbenam."
     },
     {
-      "nama": "Taman Ayun",
+      "name": "Taman Ayun",
       "latitude": "-8.5450",
       "longitude": "115.1305",
       "description": "Pura dengan taman luas, arsitektur Bali tradisional, dan kolam lotus."
     },
     {
-      "nama": "Pura Ulun Danu Beratan",
+      "name": "Pura Ulun Danu Beratan",
       "latitude": "-8.2756",
       "longitude": "115.1619",
       "description": "Pura yang indah di tepi Danau Beratan dengan pemandangan gunung."
     },
     {
-      "nama": "Ubud Monkey Forest",
+      "name": "Ubud Monkey Forest",
       "latitude": "-8.5192",
       "longitude": "115.2590",
       "description": "Hutan yang dihuni oleh kera ekor panjang, area suci dan konservasi alam."
     },
     {
-      "nama": "Pantai Kuta",
+      "name": "Pantai Kuta",
       "latitude": "-8.7256",
       "longitude": "115.1703",
       "description": "Pantai terkenal dengan ombak yang cocok untuk berselancar."
     },
     {
-      "nama": "Pantai Seminyak",
+      "name": "Pantai Seminyak",
       "latitude": "-8.6912",
       "longitude": "115.1572",
       "description": "Pantai dengan hiruk-pikuk kehidupan malam dan restoran terkenal."
     },
     {
-      "nama": "Pantai Nusa Dua",
+      "name": "Pantai Nusa Dua",
       "latitude": "-8.8069",
       "longitude": "115.2274",
       "description": "Pantai yang tenang dengan resor mewah dan keindahan bawah laut."
     },
     {
-      "nama": "Pantai Sanur",
+      "name": "Pantai Sanur",
       "latitude": "-8.6962",
       "longitude": "115.2623",
       "description": "Pantai dengan nuansa tradisional, ideal untuk bersantai dan bermain air."
     },
     {
-      "nama": "Pantai Pandawa",
+      "name": "Pantai Pandawa",
       "latitude": "-8.8605",
       "longitude": "115.2177",
       "description": "Pantai tersembunyi dengan tebing tinggi dan air yang jernih."
     },
     {
-      "nama": "Pantai Dreamland",
+      "name": "Pantai Dreamland",
       "latitude": "-8.8054",
       "longitude": "115.1250",
       "description": "Pantai yang indah dengan ombak besar, populer di kalangan peselancar."
     },
     {
-      "nama": "Pantai Lovina",
+      "name": "Pantai Lovina",
       "latitude": "-8.1594",
       "longitude": "115.0235",
       "description": "Pantai utara dengan pemandangan matahari terbit dan lumba-lumba."
     },
     {
-      "nama": "Pulau Nusa Penida",
+      "name": "Pulau Nusa Penida",
       "latitude": "-8.7252",
       "longitude": "115.5683",
       "description": "Pulau eksotis dengan tebing pemandangan indah dan tempat menyelam."
     },
     {
-      "nama": "Pura Lempuyang Luhur",
+      "name": "Pura Lempuyang Luhur",
       "latitude": "-8.3442",
       "longitude": "115.5904",
       "description": "Pura puncak gunung dengan gerbang besar dan panorama Gunung Agung."
     },
     {
-      "nama": "Taman Ujung",
+      "name": "Taman Ujung",
       "latitude": "-8.4849",
       "longitude": "115.5964",
       "description": "Taman air kerajaan dengan kolam dan jembatan yang indah."
     },
     {
-      "nama": "Pura Goa Lawah",
+      "name": "Pura Goa Lawah",
       "latitude": "-8.5486",
       "longitude": "115.4519",
       "description": "Pura dengan gua bersejarah yang dihuni ribuan kelelawar."
     },
     {
-      "nama": "Pantai Bias Tugel",
+      "name": "Pantai Bias Tugel",
       "latitude": "-8.6778",
       "longitude": "115.4519",
       "description": "Pantai tersembunyi dengan air laut yang jernih dan pasir putih."
     },
     {
-      "nama": "Tirta Gangga",
+      "name": "Tirta Gangga",
       "latitude": "-8.4046",
       "longitude": "115.5964",
       "description": "Taman air kerajaan dengan kolam, patung, dan taman yang cantik."
     },
     {
-      "nama": "Pantai Gunung Payung",
+      "name": "Pantai Gunung Payung",
       "latitude": "-8.9066",
       "longitude": "115.1259",
       "description": "Pantai terpencil dengan pemandangan dramatis dari atas bukit."
     },
     {
-      "nama": "Pantai Melasti",
+      "name": "Pantai Melasti",
       "latitude": "-8.8032",
       "longitude": "115.0860",
       "description": "Pantai yang indah dengan terowongan batu dan air laut yang jernih."
     },
     {
-      "nama": "Desa Trunyan",
+      "name": "Desa Trunyan",
       "latitude": "-8.2685",
       "longitude": "115.3801",
       "description": "Desa tradisional dengan upacara kematian unik dan makam tanpa bau."
     },
     {
-      "nama": "Pura Taman Saraswati",
+      "name": "Pura Taman Saraswati",
       "latitude": "-8.5152",
       "longitude": "115.2597",
       "description": "Pura cantik dengan kolam lotus di jantung Ubud."
     },
     {
-      "nama": "Pantai Amed",
+      "name": "Pantai Amed",
       "latitude": "-8.3367",
       "longitude": "115.6532",
       "description": "Pantai dengan perairan yang jernih dan terumbu karang yang menakjubkan."
     },
     {
-      "nama": "Air Terjun Gitgit",
+      "name": "Air Terjun Gitgit",
       "latitude": "-8.1871",
       "longitude": "115.0870",
       "description": "Air terjun indah dengan latar belakang hutan tropis."
     },
     {
-      "nama": "Air Terjun Sekumpul",
+      "name": "Air Terjun Sekumpul",
       "latitude": "-8.1885",
       "longitude": "115.0901",
       "description": "Kumpulan tujuh air terjun yang menakjubkan di hutan lebat."
     },
     {
-      "nama": "Pura Besakih",
+      "name": "Pura Besakih",
       "latitude": "-8.3707",
       "longitude": "115.4622",
       "description": "Pura suci terbesar di Bali, dikelilingi oleh panorama pegunungan."
     },
     {
-      "nama": "Pantai Jimbaran",
+      "name": "Pantai Jimbaran",
       "latitude": "-8.7746",
       "longitude": "115.1669",
       "description": "Pantai dengan restoran ikan bakar yang lezat di pinggir pantai."
     },
     {
-      "nama": "Pura Luhur Uluwatu",
+      "name": "Pura Luhur Uluwatu",
       "latitude": "-8.8306",
       "longitude": "115.0845",
       "description": "Pura di atas tebing dengan pertunjukan kecak saat matahari terbenam."
     },
     {
-      "nama": "Pantai Balangan",
+      "name": "Pantai Balangan",
       "latitude": "-8.8111",
       "longitude": "115.1172",
       "description": "Pantai dengan ombak besar yang menarik peselancar."
     },
     {
-      "nama": "Pura Goa Gajah",
+      "name": "Pura Goa Gajah",
       "latitude": "-8.5271",
       "longitude": "115.2905",
       "description": "Pura kuno dengan gua yang dihias patung Ganesha dan arca."
     },
     {
-      "nama": "Pantai Tegal Wangi",
+      "name": "Pantai Tegal Wangi",
       "latitude": "-8.8022",
       "longitude": "115.1093",
       "description": "Pantai cantik dengan batu karang yang menonjol di tepi pantai."
     },
     {
-      "nama": "Pantai Bingin",
+      "name": "Pantai Bingin",
       "latitude": "-8.8057",
       "longitude": "115.1133",
       "description": "Pantai dengan pemandangan dramatis dari atas tebing."
     },
     {
-      "nama": "Kebun Raya Bedugul",
+      "name": "Kebun Raya Bedugul",
       "latitude": "-8.2779",
       "longitude": "115.1640",
-      "description": "Kebun raya dengan berbagai koleksi tanaman dan bunga."
+      "description": "Kebun raya dengan berbagai koleksi tanamen dan bunga."
     },
     {
-      "nama": "Desa Penglipuran",
+      "name": "Desa Penglipuran",
       "latitude": "-8.3555",
       "longitude": "115.3511",
       "description": "Desa tradisional dengan arsitektur Bali yang indah."
     },
     {
-      "nama": "Pura Ulun Danu Batur",
+      "name": "Pura Ulun Danu Batur",
       "latitude": "-8.2763",
       "longitude": "115.3745",
       "description": "Pura di tepi Danau Batur dengan latar belakang Gunung Batur."
     },
     {
-      "nama": "Hutan Mangrove Nusa Dua",
+      "name": "Hutan Mangrove Nusa Dua",
       "latitude": "-8.8163",
       "longitude": "115.2311",
       "description": "Hutan mangrove yang luas dengan jalur kayaking dan ekowisata."
     },
     {
-      "nama": "Pantai Tegenungan",
+      "name": "Pantai Tegenungan",
       "latitude": "-8.5575",
       "longitude": "115.2938",
       "description": "Pantai dengan air terjun yang indah dan pemandangan alam."
     },
     {
-      "nama": "Pantai Green Bowl",
+      "name": "Pantai Green Bowl",
       "latitude": "-8.8389",
       "longitude": "115.1675",
       "description": "Pantai tersembunyi dengan gua dan terumbu karang yang menakjubkan."
     },
     {
-      "nama": "Pantai Sawangan",
+      "name": "Pantai Sawangan",
       "latitude": "-8.7919",
       "longitude": "115.2300",
       "description": "Pantai tenang dengan air jernih dan hamparan pasir putih."
     },
     {
-      "nama": "Pura Tirta Empul",
+      "name": "Pura Tirta Empul",
       "latitude": "-8.4125",
       "longitude": "115.2986",
       "description": "Pura suci dengan kolam suci dan tradisi pembersihan."
     },
     {
-      "nama": "Pantai Nyang Nyang",
+      "name": "Pantai Nyang Nyang",
       "latitude": "-8.8315",
       "longitude": "115.1238",
       "description": "Pantai tersembunyi dengan perjalanan menuruni tebing yang menantang."
     },
     {
-      "nama": "Bali Safari Marine Park",
+      "name": "Bali Safari Marine Park",
       "latitude": "-8.5515",
       "longitude": "115.3421",
       "description": "Taman safari dengan berbagai hewan langka dan atraksi."
     },
     {
-      "nama": "Museum Le Mayeur",
+      "name": "Museum Le Mayeur",
       "latitude": "-8.5127",
       "longitude": "115.2621",
       "description": "Museum seni yang mengoleksi lukisan pelukis Belanda Adrien-Jean Le Mayeur."
     },
     {
-      "nama": "Pantai Sindhu",
+      "name": "Pantai Sindhu",
       "latitude": "-8.6912",
       "longitude": "115.2612",
       "description": "Pantai dengan pemandangan indah, tempat surfing, dan restoran."
     },
     {
-      "nama": "Pura Dalem Pengempu",
+      "name": "Pura Dalem Pengempu",
       "latitude": "-8.5791",
       "longitude": "115.3763",
       "description": "Pura kuno dengan pemandangan hutan hijau dan arca bersejarah."
     },
     {
-      "nama": "Pantai Gunung Payung",
+      "name": "Pantai Gunung Payung",
       "latitude": "-8.9066",
       "longitude": "115.1259",
       "description": "Pantai terpencil dengan pemandangan dramatis dari atas bukit."
     },
     {
-      "nama": "Pantai Nunggalan",
+      "name": "Pantai Nunggalan",
       "latitude": "-8.8220",
       "longitude": "115.1175",
       "description": "Pantai tersembunyi dengan pemandangan batu karang yang menakjubkan."
     },
     {
-      "nama": "Air Terjun Leke Leke",
+      "name": "Air Terjun Leke Leke",
       "latitude": "-8.2896",
       "longitude": "115.1626",
       "description": "Air terjun yang indah di area pedesaan."
     },
     {
-      "nama": "Museum Negeri Propinsi Bali",
+      "name": "Museum Negeri Propinsi Bali",
       "latitude": "-8.6489",
       "longitude": "115.2165",
       "description": "Museum yang memamerkan budaya dan seni tradisional Bali."
     },
     {
-      "nama": "Pantai Keramas",
+      "name": "Pantai Keramas",
       "latitude": "-8.5936",
       "longitude": "115.3422",
       "description": "Pantai yang menarik peselancar dengan ombak besar."
     },
     {
-      "nama": "Pantai Perasi (Pantai Virgin)",
+      "name": "Pantai Perasi (Pantai Virgin)",
       "latitude": "-8.5620",
       "longitude": "115.5697",
       "description": "Pantai terpencil dengan keindahan alam yang masih alami."

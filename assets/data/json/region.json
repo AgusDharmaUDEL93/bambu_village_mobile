@@ -1,0 +1,282 @@
+[
+  {
+    "region": "Bali",
+    "regency": [
+      {
+        "name": "Tabanan",
+        "location": [
+          {
+            "name": "Pura Tanah Lot",
+            "latitude": "-8.6212",
+            "longitude": "115.0865"
+          }
+        ]
+      },
+      {
+        "name": "Badung",
+        "location": [
+          {
+            "name": "Taman Ayun",
+            "latitude": "-8.5450",
+            "longitude": "115.1305"
+          },
+          {
+            "name": "Pantai Kuta",
+            "latitude": "-8.7256",
+            "longitude": "115.1703"
+          },
+          {
+            "name": "Pantai Seminyak",
+            "latitude": "-8.6912",
+            "longitude": "115.1572"
+          },
+          {
+            "name": "Pantai Nusa Dua",
+            "latitude": "-8.8069",
+            "longitude": "115.2274"
+          },
+          {
+            "name": "Pantai Pandawa",
+            "latitude": "-8.8605",
+            "longitude": "115.2177"
+          },
+          {
+            "name": "Pantai Dreamland",
+            "latitude": "-8.8054",
+            "longitude": "115.1250"
+          },
+          {
+            "name": "Pantai Balangan",
+            "latitude": "-8.8111",
+            "longitude": "115.1172"
+          },
+          {
+            "name": "Pantai Jimbaran",
+            "latitude": "-8.7746",
+            "longitude": "115.1669"
+          },
+          {
+            "name": "Pantai Tegal Wangi",
+            "latitude": "-8.8022",
+            "longitude": "115.1093"
+          },
+          {
+            "name": "Pantai Bingin",
+            "latitude": "-8.8057",
+            "longitude": "115.1133"
+          },
+          {
+            "name": "Pantai Green Bowl",
+            "latitude": "-8.8389",
+            "longitude": "115.1675"
+          },
+          {
+            "name": "Pantai Sawangan",
+            "latitude": "-8.7919",
+            "longitude": "115.2300"
+          },
+          {
+            "name": "Pantai Melasti",
+            "latitude": "-8.8032",
+            "longitude": "115.0860"
+          },
+          {
+            "name": "Pantai Keramas",
+            "latitude": "-8.5936",
+            "longitude": "115.3422"
+          },
+          {
+            "name": "Pantai Perasi (Pantai Virgin)",
+            "latitude": "-8.5620",
+            "longitude": "115.5697"
+          }
+        ]
+      },
+      {
+        "name": "Gianyar",
+        "location": [
+          {
+            "name": "Pura Ulun Danu Beratan",
+            "latitude": "-8.2756",
+            "longitude": "115.1619"
+          },
+          {
+            "name": "Ubud Monkey Forest",
+            "latitude": "-8.5192",
+            "longitude": "115.2590"
+          },
+          {
+            "name": "Pura Goa Lawah",
+            "latitude": "-8.5486",
+            "longitude": "115.4519"
+          },
+          {
+            "name": "Pura Taman Saraswati",
+            "latitude": "-8.5152",
+            "longitude": "115.2597"
+          },
+          {
+            "name": "Pura Goa Gajah",
+            "latitude": "-8.5271",
+            "longitude": "115.2905"
+          },
+          {
+            "name": "Pura Dalem Pengempu",
+            "latitude": "-8.5791",
+            "longitude": "115.3763"
+          }
+        ]
+      },
+      {
+        "name": "Karangasem",
+        "location": [
+          {
+            "name": "Pantai Bias Tugel",
+            "latitude": "-8.6778",
+            "longitude": "115.4519"
+          },
+          {
+            "name": "Pantai Amed",
+            "latitude": "-8.3367",
+            "longitude": "115.6532"
+          },
+          {
+            "name": "Pura Lempuyang Luhur",
+            "latitude": "-8.3442",
+            "longitude": "115.5904"
+          },
+          {
+            "name": "Pura Besakih",
+            "latitude": "-8.3707",
+            "longitude": "115.4622"
+          },
+          {
+            "name": "Pura Ulun Danu Batur",
+            "latitude": "-8.2763",
+            "longitude": "115.3745"
+          },
+          {
+            "name": "Pura Tirta Empul",
+            "latitude": "-8.4125",
+            "longitude": "115.2986"
+          }
+        ]
+      },
+      {
+        "name": "Buleleng",
+        "location": [
+          {
+            "name": "Pantai Lovina",
+            "latitude": "-8.1594",
+            "longitude": "115.0235"
+          },
+          {
+            "name": "Pulau Nusa Penida",
+            "latitude": "-8.7252",
+            "longitude": "115.5683"
+          },
+          {
+            "name": "Desa Trunyan",
+            "latitude": "-8.2685",
+            "longitude": "115.3801"
+          },
+          {
+            "name": "Air Terjun Gitgit",
+            "latitude": "-8.1871",
+            "longitude": "115.0870"
+          },
+          {
+            "name": "Air Terjun Sekumpul",
+            "latitude": "-8.1885",
+            "longitude": "115.0901"
+          }
+        ]
+      },
+      {
+        "name": "Klungkung",
+        "location": [
+          {
+            "name": "Pantai Nunggalan",
+            "latitude": "-8.8220",
+            "longitude": "115.1175"
+          },
+          {
+            "name": "Pantai Sindhu",
+            "latitude": "-8.6912",
+            "longitude": "115.2612"
+          },
+          {
+            "name": "Pantai Sanur",
+            "latitude": "-8.6962",
+            "longitude": "115.2623"
+          }
+        ]
+      },
+      {
+        "name": "Bangli",
+        "location": [
+          {
+            "name": "Pantai Gunung Payung",
+            "latitude": "-8.9066",
+            "longitude": "115.1259"
+          },
+          {
+            "name": "Pantai Nyang Nyang",
+            "latitude": "-8.8315",
+            "longitude": "115.1238"
+          },
+          {
+            "name": "Air Terjun Leke Leke",
+            "latitude": "-8.2896",
+            "longitude": "115.1626"
+          }
+        ]
+      },
+      {
+        "name": "Jembrana",
+        "location": [
+          {
+            "name": "Pantai Medewi",
+            "latitude": "-8.4291",
+            "longitude": "114.8154"
+          }
+        ]
+      },
+      {
+        "name": "Denpasar",
+        "location": [
+          {
+            "name": "Taman Ujung",
+            "latitude": "-8.4849",
+            "longitude": "115.5964"
+          },
+          {
+            "name": "Tirta Gangga",
+            "latitude": "-8.4046",
+            "longitude": "115.5964"
+          },
+          {
+            "name": "Hutan Mangrove Nusa Dua",
+            "latitude": "-8.8163",
+            "longitude": "115.2311"
+          },
+          {
+            "name": "Pantai Tegenungan",
+            "latitude": "-8.5575",
+            "longitude": "115.2938"
+          },
+          {
+            "name": "Museum Le Mayeur",
+            "latitude": "-8.5127",
+            "longitude": "115.2621"
+          },
+          {
+            "name": "Museum Negeri Propinsi Bali",
+            "latitude": "-8.6489",
+            "longitude": "115.2165"
+          }
+        ]
+      }
+    ]
+  }
+]

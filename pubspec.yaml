@@ -13,6 +13,8 @@ dependencies:
     sdk: flutter
   latlong2: ^0.8.2
   flutter_map_marker_popup: ^5.0.0
+  flutter_slider_drawer: ^2.1.3
+  accordion: ^2.5.1
 
 dev_dependencies: 
   flutter_lints: 2.0.2

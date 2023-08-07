@@ -9,48 +9,45 @@ Location locationFromJson(String str) => Location.fromJson(json.decode(str));
 String locationToJson(Location data) => json.encode(data.toJson());
 
 class Location {
-  List<TempatPariwisata> tempatPariwisata;
+    List<LocationElement> location;
 
-  Location({
-    required this.tempatPariwisata,
-  });
+    Location({
+        required this.location,
+    });
 
-  factory Location.fromJson(Map<String, dynamic> json) => Location(
-        tempatPariwisata: List<TempatPariwisata>.from(
-            json["tempat_pariwisata"].map((x) => TempatPariwisata.fromJson(x))),
-      );
+    factory Location.fromJson(Map<String, dynamic> json) => Location(
+        location: List<LocationElement>.from(json["location"].map((x) => LocationElement.fromJson(x))),
+    );
 
-  Map<String, dynamic> toJson() => {
-        "tempat_pariwisata":
-            List<dynamic>.from(tempatPariwisata.map((x) => x.toJson())),
-      };
+    Map<String, dynamic> toJson() => {
+        "location": List<dynamic>.from(location.map((x) => x.toJson())),
+    };
 }
 
-class TempatPariwisata {
-  String nama;
-  String latitude;
-  String longitude;
-  String description;
+class LocationElement {
+    String name;
+    String latitude;
+    String longitude;
+    String description;
 
-  TempatPariwisata({
-    required this.nama,
-    required this.latitude,
-    required this.longitude,
-    required this.description,
-  });
+    LocationElement({
+        required this.name,
+        required this.latitude,
+        required this.longitude,
+        required this.description,
+    });
 
-  factory TempatPariwisata.fromJson(Map<String, dynamic> json) =>
-      TempatPariwisata(
-        nama: json["nama"],
+    factory LocationElement.fromJson(Map<String, dynamic> json) => LocationElement(
+        name: json["name"],
         latitude: json["latitude"],
         longitude: json["longitude"],
         description: json["description"],
-      );
+    );
 
-  Map<String, dynamic> toJson() => {
-        "nama": nama,
+    Map<String, dynamic> toJson() => {
+        "name": name,
         "latitude": latitude,
         "longitude": longitude,
         "description": description,
-      };
+    };
 }

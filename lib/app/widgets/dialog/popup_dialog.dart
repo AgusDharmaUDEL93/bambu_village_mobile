@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import '../../models/location.dart';
 
 class PopUpDiaglog extends StatelessWidget {
-  const PopUpDiaglog({super.key, required this.tempatPariwisata});
+  const PopUpDiaglog({super.key, required this.locationElement});
 
-  final TempatPariwisata tempatPariwisata;
+  final LocationElement locationElement;
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class PopUpDiaglog extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
               Text(
-                tempatPariwisata.nama,
+                locationElement.name,
                 overflow: TextOverflow.fade,
                 softWrap: false,
                 textAlign: TextAlign.center,
@@ -31,7 +31,7 @@ class PopUpDiaglog extends StatelessWidget {
               ),
               const Padding(padding: EdgeInsets.symmetric(vertical: 4.0)),
               Text(
-                tempatPariwisata.description,
+                locationElement.description,
                 textAlign: TextAlign.center,
                 style: const TextStyle(fontSize: 12.0),
               ),
